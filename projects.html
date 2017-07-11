@@ -1,0 +1,91 @@
+<html>
+  <title>projects</title>
+  
+  <body style="background-color:#FFFFFF">
+    <html>
+<head>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+    margin: 2cm 2cm 2cm 2cm
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFF8E1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFDB67;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #FFFFFF;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">home</a>
+  <a href="#">about</a>
+  <a href="#">projects</a>
+  <a href="#">contact</a>
+</div>
+
+<div id="main">
+  <h2 style="color:#FFDB67;font-family:HelveticaNeue-Light;text-align:center;font-size:40px">thunguyen</h2>
+  <span style="font-size:30px;cursor:pointer;color:#FFE9A2;font-family:HelveticaNeue-Light;text-align:center" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<body>
+<pre style="color:#FFCF32;font-family:HelveticaNeue-Light;text-align:center">
+  this is my scratch game i made with my group. 
+  it's called <a href="https://scratch.mit.edu/projects/166981536/" style="color:FFE9A2">if penguins can fly.</a> it is a basic side scrolling game.
+  much excitement</pre>
+    <center><img src="Screen Shot 2017-06-26 at 3.10.08 PM.png" alt:"penguin"
+                 style="width:30%;height;30%"></center>
+    
+  <p style="color:#FFCF32;font-family:HelveticaNeue-Light;text-align:center"> 
+    this is what we did during the robotics unit. first we made a led light light up! 
+    the next day we made the led light perform morse code that spelled out "sisterhood" </p>
+
+   </body>
+</body>
+</html>
